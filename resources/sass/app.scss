@@ -1,0 +1,852 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+.tab {
+    display: inline-block;
+    margin-left: 3rem !important;
+}
+.doubleTab {
+    display: inline-block;
+    margin-left: 10.35rem !important;
+}
+
+.checkbox-color label{
+    color: #2196F3 !important;
+    font-weight: 500 !important;
+    text-decoration: underline !important;
+    font-family: "Roboto", sans-serif !important;
+    letter-spacing: 0.0071428571em !important;
+    line-height: 1.375rem !important;
+}
+.white-text-label label{
+    color: white !important;
+}
+
+.cms-font-size-attendance{
+    font-size: 14px;
+}
+.khawin-background-color {
+    background-color: #3a9dca !important;
+}
+
+.khawin-color {
+    color: #3a9dca !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8888887d;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.mdi-delete {
+    color: #e12e2e !important;
+}
+
+.v-toolbar--dense {
+    z-index: 999 !important;
+}
+
+.v-app-bar {
+    background-color: #3a9dca !important;
+    border-color: #3a9dca !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khmer&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+
+.app-title {
+    font-family: 'Moul', cursive !important;
+}
+
+.khmer-font {
+    font-family: 'Noto Sans Khmer', sans-serif !important;
+}
+
+.v-main {
+    font-family: 'Noto Sans Khmer', sans-serif !important;
+    background-color: #f1f2f6 !important;
+}
+
+
+
+.theme--light.v-app-bar.v-toolbar.v-sheet {
+    background-color: #f1f2f6 !important;
+}
+
+.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    color: #4b6584 !important;
+}
+
+// #main-app .v-list-item--active{
+//     background-color: #3a9cca98;
+// }
+
+.txt-search {
+    margin-top: -19px !important;
+}
+
+.calendarDialog {
+    z-index: 999;
+}
+
+#main-app .menu-icon .v-list-item--dense .v-list-item__title,
+.v-list-item--dense .v-list-item__subtitle,
+.v-list--dense .v-list-item .v-list-item__title,
+.v-list--dense .v-list-item .v-list-item__subtitle {
+    font-size: 0.9rem !important;
+}
+
+#main-app .menu-icon .v-icon.v-icon {
+    font-size: 26px !important;
+}
+
+// ==========TREE MENU==============
+#main-app .v-treeview-node__prepend {
+    min-width: 0px !important;
+}
+
+#main-app .v-treeview-node__content {
+    margin-left: 0px !important;
+}
+
+#menu .v-sheet.v-card:not(.v-sheet--outlined),
+.v-sheet.v-card:not(.v-sheet--outlined) {
+    box-shadow: none !important;
+}
+
+.tree-menu .v-list {
+    padding: 3px 0 !important;
+}
+
+.tree-menu .v-icon {
+    font-size: 23px !important;
+}
+
+// .tree-menu .theme--light.v-list {
+//     color: red !important;
+// }
+
+.tree-menu .theme--light.v-icon {
+    color: #365e87ed !important;
+}
+
+.tree-menu .v-list-item {
+    padding: 0 5px !important;
+}
+
+.tree-menu .v-list-item__title {
+    font-weight: 500 !important;
+    color: #365e87ed !important;
+}
+
+.tree-menu .theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    color: #485460 !important;
+}
+
+.arrow-menu {
+    contain: initial !important;
+    overflow: visible !important;
+    margin-left: 15px;
+}
+
+.arrow-menu::before {
+    position: absolute;
+    content: "";
+    left: -20px;
+    top: 0px;
+    transform: translateY(10%);
+    width: 10px;
+    height: 13px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #ffffff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+// --------------------
+
+#main-app.v-application .cyan.darken-2 {
+    background-color: #3a9dca !important;
+    border-color: #3a9dca !important;
+}
+
+#main-app .v-picker__body {
+    background-color: #3f51b511;
+}
+
+#calendarDialog .v-date-picker-table .v-btn.v-btn--active {
+    color: #ff0000 !important;
+}
+
+#calendarDialog .accent {
+    background-color: rgb(255, 220, 220) !important;
+}
+
+.holiday-dates {
+    font-size: 13px !important;
+}
+
+// =============login==============
+
+.login-container {
+    background-image: url("/image/login-bacground.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.v-alert--prominent .v-alert__icon.v-icon {
+    font-size: 16px !important;
+}
+
+.v-alert--prominent .v-alert__icon {
+    height: 20px !important;
+    min-width: 20px !important;
+}
+
+.card-background {
+    background-color: rgba(255, 255, 255, .15) !important;
+    backdrop-filter: blur(5px) !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.language-login {
+    position: absolute !important;
+    top: -15px;
+    right: 0;
+}
+
+// =============Dashboard==========
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
+
+#dashboard .widget-card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#dashboard .widget-card h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#dashboard .widget-card h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#dashboard .employee h3 {
+    // font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 15px !important;
+}
+
+#dashboard .absent h3 {
+    // font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 17px !important;
+}
+
+#dashboard .user h3 {
+    // font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 17px !important;
+}
+
+.dashboard-card .v-icon {
+    -webkit-filter: drop-shadow(0 3px 2px hsla(0, 0%, 0%, .25));
+}
+
+#dashboard .v-card {
+    // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px !important;
+}
+
+#dashboard .v-card h4,
+h2 {
+    font-weight: 500;
+}
+
+#dashboard .theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th {
+    height: 30px !important;
+    border-top: none !important;
+}
+
+.app-date .v-btn__content .v-icon--left {
+    margin-left: 0px !important;
+    margin-top: 4px !important;
+}
+
+.v-skeleton-loader__card-heading .v-skeleton-loader__heading {
+    margin: 0px !important;
+}
+
+.v-skeleton-loader--is-loading {
+    float: right;
+}
+
+.v-skeleton-loader__table-heading {
+    padding: 0 !important;
+}
+
+.v-skeleton-loader__list-item-three-line {
+    margin-top: -20px;
+}
+
+.v-skeleton-loader__paragraph {
+    margin-top: 20px;
+}
+
+#dashboard .v-data-table__wrapper {
+    max-height: 300px;
+    overflow: scroll !important;
+}
+
+#dashboard .v-data-table__wrapper::-webkit-scrollbar {
+    width: 4px !important;
+}
+
+#dashboard .v-data-table__wrapper::-webkit-scrollbar-thumb {
+    background: rgba(124, 124, 124, 0.548);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#dashboard .count_chip {
+    height: 18px !important;
+}
+
+#dashboard .name-employee-table {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+// ===============user================
+#user .table-card {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+.theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th {
+    font-size: 0.8rem;
+    background-color: #f1f2f6;
+    height: 40px;
+    border-top: 1.5px solid #cfcfcfcc;
+}
+
+#user .table-card .v-icon.v-icon {
+    font-size: 18px !important;
+}
+
+#user .v-chip.v-size--small {
+    height: 18px;
+    padding: 5px;
+}
+
+#user .role-chip {
+    font-size: 12px;
+    height: 22px !important;
+}
+
+.user-name {
+    font-size: 13px;
+}
+
+.v-input .v-label {
+    font-size: 14px !important;
+}
+
+.user-form .v-text-field {
+    padding-top: 5px !important;
+}
+
+.user-form-dialog {
+    cursor: move;
+}
+
+.btn-remove-phoneNum {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 19rem;
+}
+
+.btn-remove-phoneNum .v-btn--fab.v-size--x-small {
+    height: 17px !important;
+    width: 17px !important;
+}
+
+.btn-add-phoneNum {
+    position: absolute !important;
+    margin-left: -30px;
+    margin-top: 13px;
+    height: 17px !important;
+    width: 17px !important;
+}
+
+.user-phone-number {
+    height: 18px !important;
+    font-size: 14px !important;
+}
+
+.v-file-input__text {
+    font-size: 13px;
+}
+
+// ===============POSITION============
+#position .table-card {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+#position .mdi-account-star {
+    font-size: 20px !important;
+}
+
+#position .v-data-table__expanded__content {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important;
+}
+
+#position .employee_count_by_position .theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th {
+    height: 30px !important;
+}
+
+.v-input--selection-controls .v-input__slot>.v-label,
+.v-input--selection-controls .v-radio>.v-label {
+    font-family: "Noto Sans Khmer", sans-serif !important;
+}
+
+// ===============employee============
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto&display=swap');
+
+#employee .table-card {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+#employee .tab span {
+    // font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-family: 'Noto Sans Khmer', sans-serif !important;
+}
+
+#employee .v-tab--active {
+    background-color: #78909C;
+    color: #ffffff;
+}
+
+#employee .v-chip.v-size--small {
+    border-radius: 10px;
+    font-size: 12px;
+    height: 20px;
+}
+
+#employee .v-tab {
+    letter-spacing: 0 !important;
+}
+
+.employee-radio {
+    margin-top: 0px !important;
+}
+
+.employee-name {
+    font-size: 90%;
+}
+
+.v-input--selection-controls .v-input__slot>.v-label,
+.v-input--selection-controls .v-radio>.v-label {
+    font-family: "Noto Sans Khmer", sans-serif !important;
+}
+
+.start-date {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+}
+
+.card-action {
+    border-top: 1.5px groove #ffffff73;
+}
+
+.icon-add-phone {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.gender-chip {
+    height: 16px !important;
+    padding: 0 5px !important;
+}
+
+.employeeCard {
+    background-image: url("../../public/image/Web 1920 – 9.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px !important;
+}
+
+.v-list-item__mask {
+    background: #fff372 !important;
+}
+
+.cardDetail {
+    z-index: 99;
+}
+
+.cardNum {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ecf0f1;
+    border-radius: 100%;
+    top: 5px;
+    right: 5px;
+    border: 1px solid #a4b0be;
+}
+
+.cardDetail p {
+    margin-bottom: 3px !important;
+    font-size: 14px;
+}
+
+.cardPosition {
+    margin-left: -35px;
+    margin-top: 15px;
+    // background: linear-gradient(to left, #283593, #347bb8);
+    padding: 13px 10px;
+    z-index: 1;
+    border-radius: 100px;
+    color: #57606fee;
+}
+
+.background-card-position {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 100%;
+    margin-left: -40px;
+    margin-top: 10px;
+    z-index: -1;
+    background: #474787;
+}
+
+.table-card .v-image__image {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.cardDefaulProfileImg {
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f1f2f6;
+    border-radius: 15px;
+}
+
+.cardEmpName {
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #7a7a7a95;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.297) 0px 3px 3px;
+}
+
+.table-card .theme--light.v-image {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.cardPhoneNum {
+    font-size: 13px;
+}
+
+.cardAction {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+
+// -----------------absnet-------------------------
+#absent .table-card {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+.absent-date {
+    letter-spacing: 1px;
+}
+
+.absent-day-chip {
+    height: 18px !important;
+    padding: 0 8px !important;
+}
+
+#absent .v-data-table>.v-data-table__wrapper>table>tbody>tr>td {
+    height: 38px !important;
+}
+
+#absent-type {
+    padding: 8px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: 1px solid #9b9b9b;
+}
+
+#absent-type legend {
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #616161;
+}
+
+#absent-type .v-radio {
+    margin-bottom: 5px;
+}
+
+.absent-employee-name {
+    font-size: 13px !important;
+    color: #585858 !important;
+}
+
+#absent .absent-profile-avatar {
+    font-size: 10px !important;
+}
+
+// --------------------
+#report .v-card {
+    // padding: 30px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.alert-report-message {
+    font-size: 0.8rem !important;
+}
+
+#report .v-alert__icon.v-icon {
+    font-size: 25px;
+}
+
+#report .v-alert--prominent .v-alert__icon {
+    height: 28px;
+    min-width: 28px;
+}
+
+#report .data-table .position-chip {
+    height: 17px !important;
+}
+
+#report .absent_total-chip {
+    height: 20px !important;
+    font-size: 13px !important;
+}
+
+#report .absent_count_chip {
+    height: 20px !important;
+    padding: 0px 6px;
+}
+
+#report .date-chip {
+    font-size: 13px;
+    height: 16px !important;
+}
+
+#report .simple-table-report th {
+    height: 30px !important;
+}
+
+#report .v-data-table__expanded__content {
+    background-color: #eaeaea;
+}
+
+// ============PDF============
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.vue-html2pdf .pdf-preview button[data-v-1fd3ad26] {
+    background-color: #3f51b5 !important;
+}
+
+#pdf-content {
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pdf-content thead {
+    background-color: #3a9dca;
+}
+
+#pdf-content thead th {
+    background-color: #3a9dca;
+    color: rgba(255, 255, 255, 0.89);
+    text-align: left;
+    border: none;
+}
+
+#pdf-content .title-hearder {
+    padding: 20px 0;
+    color: #3a9dca;
+}
+
+#pdf-table .simple-table-report .v-data-table>.v-data-table__wrapper>table>tbody>tr>td {
+    font-size: 0.7rem !important;
+}
+
+#pdf-content .title-hearder .v-icon {
+    color: #3a9dca;
+}
+
+#pdf-content .count-absent-employee {
+    margin-left: 5px;
+    color: rgb(207, 9, 9);
+}
+
+#pdf-content .empoyee-name {
+    font-size: 14px;
+}
+
+#pdf-content .report-date {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+#pdf-content .report-date-time {
+    text-align: right;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #424242;
+}
+
+#pdf-content .report-date-time p {
+    padding: 2px 0;
+}
+
+#pdf-content .report-date-time .v-icon {
+    color: #424242;
+}
+
+#pdf-content .border-bottom {
+    border-bottom: 1px solid rgba(196, 196, 196, 0.932);
+}
+
+#pdf-content .count-absent-chip-report {
+    color: rgb(207, 9, 9);
+    padding: 0 5px !important;
+    font-size: 13px !important;
+}
+
+.pdf-report-day {
+    text-transform: lowercase;
+}
+
+.pdf-employee-name {
+    color: #0078af;
+}
+
+.employee-name-report {
+    font-weight: 500;
+}
+
+// ===============Account================
+#account .theme--light.v-tabs>.v-tabs-bar {
+    background-color: transparent;
+}
+
+#account .theme--light.v-tabs-items {
+    background-color: transparent;
+}
+
+#account .theme--light.v-card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#account-setting .profile-img .v-input__icon {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 55px;
+}
+
+#account-setting .profile-img .v-icon {
+    background-color: #f1f2f6;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px;
+}
+
+#role .treeview-item {
+    font-size: 16px !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .login-logo {
+        display: none !important;
+    }
+
+    .forgot-pass-logo {
+        display: none !important;
+    }
+
+    #forgot-password .forgot-description {
+        font-style: 12px !important;
+    }
+
+    #forgot-password .action {
+        flex-direction: column-reverse !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+.testMenu {
+    margin: 30px;
+}

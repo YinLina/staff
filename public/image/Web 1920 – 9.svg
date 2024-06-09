@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="344" height="210" viewBox="0 0 344 210">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="0.976" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#474787"/>
+      <stop offset="0.037" stop-color="#474787"/>
+      <stop offset="1" stop-color="#4d4787"/>
+    </linearGradient>
+    <filter id="Ellipse_1" x="-157" y="77" width="282" height="291" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_6" x="316" y="-377" width="411" height="420" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_8" x="278.5" y="160" width="107" height="113.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-opacity="0.988"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_7" x="-180.5" y="77" width="348" height="365.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-4"/>
+      <feFlood flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_1" x="237" y="-93" width="165" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_2" x="258" y="-104" width="165" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_3" x="198.289" y="124.662" width="85.089" height="100.826" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_4" x="181.289" y="121.662" width="85.089" height="100.826" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_5" x="143.725" y="33.055" width="100.216" height="84.041" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_6" x="140.448" y="43.818" width="92.77" height="72.516" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="344" height="210"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="344" height="210" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_1)">
+      <ellipse id="Ellipse_1-2" data-name="Ellipse 1" cx="138" cy="141.5" rx="138" ry="141.5" transform="translate(-154 77)" fill="#fff" opacity="0.06"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_6)">
+      <ellipse id="Ellipse_6-2" data-name="Ellipse 6" cx="196.5" cy="201" rx="196.5" ry="201" transform="translate(325 -371)" fill="#fff" opacity="0.03"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_8)">
+      <ellipse id="Ellipse_8-2" data-name="Ellipse 8" cx="52" cy="53.5" rx="52" ry="53.5" transform="translate(280 160)" fill="#fff" opacity="0.09"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_7)">
+      <ellipse id="Ellipse_7-2" data-name="Ellipse 7" cx="172.5" cy="177" rx="172.5" ry="177" transform="translate(-179 77)" fill="#fff" opacity="0.06"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_1)">
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M73.5,0,147,157H0Z" transform="translate(246 -87)" fill="#fff" opacity="0.04"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_2)">
+      <path id="Polygon_2-2" data-name="Polygon 2" d="M73.5,0,147,157H0Z" transform="translate(267 -98)" fill="#fff" opacity="0.07"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_3)">
+      <path id="Polygon_3-2" data-name="Polygon 3" d="M36.5,0,73,52H0Z" transform="translate(274.38 142.36) rotate(103)" fill="#fff" opacity="0.01"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_4)">
+      <path id="Polygon_4-2" data-name="Polygon 4" d="M36.5,0,73,52H0Z" transform="translate(257.38 139.36) rotate(103)" fill="#fff" opacity="0.04"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_5)">
+      <path id="Polygon_5-2" data-name="Polygon 5" d="M36.5,0,73,52H0Z" transform="matrix(-0.98, 0.21, -0.21, -0.98, 234.94, 89.92)" fill="#fff" opacity="0.01"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_6)">
+      <path id="Polygon_6-2" data-name="Polygon 6" d="M36.5,0,73,52H0Z" transform="translate(222.4 104.33) rotate(-178)" fill="#fff" opacity="0.02"/>
+    </g>
+  </g>
+</svg>
